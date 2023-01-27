@@ -1,0 +1,32 @@
+.footerContainer {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+  gap: 2rem;
+}
+
+.footerContainer img {
+  width: 3rem;
+}
+.footerEmail {
+  text-align: center;
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .footerContainer {
+    display: flex;
+  }
+  footer {
+    margin-bottom: 0px;
+  }
+  .footerEmail {
+    text-align: center;
+    display: block;
+  }
+}
+
+footer {
+  margin-bottom: 200px;
+}

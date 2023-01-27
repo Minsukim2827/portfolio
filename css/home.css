@@ -1,0 +1,70 @@
+.hi {
+  color: #38f2ff;
+}
+.homeName {
+  margin-top: 1rem;
+
+  font-size: 4em;
+  font-weight: 700;
+}
+.homeSoftware {
+  font-size: 4em;
+  white-space: nowrap;
+  font-weight: 700;
+  color: rgb(167, 167, 167);
+}
+.homeDescription {
+  display: inline;
+  color: rgb(167, 167, 167);
+}
+
+.homeD1 {
+  display: inline;
+  color: #38f2ff;
+}
+
+.homeDescriptionContainer {
+  width: 60%;
+  margin-top: 1rem;
+}
+
+.homePicture {
+  width: 25rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.homeRight {
+  display: flex;
+
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+  .homePicture {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .homeName,
+  .homeSoftware {
+    font-size: 9vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homePicture {
+    /* display: none; */
+    margin-bottom: 2rem;
+    width: 90%;
+  }
+  .homeDescriptionContainer {
+    width: 80%;
+  }
+  .homeContainer {
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+}

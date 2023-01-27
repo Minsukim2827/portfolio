@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0 maximum-scale=1.0, user-scalable=no" />
+    <title>Minsu Kim</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/nav-top.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/stack.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/nav-side.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--  BACKGROUND ANIMATION -->
+    <div id="particles-js"></div>
+    <script src="javascript/particles.js"></script>
+    <script src="javascript/app.js"></script>
+
+    <!-- NAVIGATION SIDEBAR -->
+    <nav class="nav-side">
+      <div class="nav-left">
+        <div class="iconContainer">
+          <a href="https://github.com/tacticalturtle42">
+            <img
+              class="githubIcon"
+              src="icons/github-color.svg"
+              alt="example"
+              
+            />
+          </a>
+          <p class="tooltip githubToolTip">github</p>
+        </div>
+        <div class="iconContainer">
+          <a href="https://www.example.com">
+            <img class="slackIcon" src="icons/slack-color.svg" alt="example" />
+          </a>
+          <p class="tooltip slackToolTip">slack</p>
+        </div>
+        <div class="iconContainer">
+          <a href="https://www.example.com">
+            <img
+              class="stack-overflowIcon"
+              src="icons/stackoverflow-color.svg"
+              alt="example"
+            />
+          </a>
+          <p class="tooltip stack-overflowToolTip">stack overflow</p>
+        </div>
+        <div class="iconContainer">
+          <a href="https://www.example.com">
+            <img
+              class="linkedinIcon"
+              src="icons/linkedin-color.svg"
+              alt="example"
+            />
+          </a>
+          <p class="tooltip linkedinToolTip">linkedin</p>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="nav-right">
+        <div class="email animate">
+          <a class="emailLink" href="mailto:m.kim2827@gmail.com">m.kim2827@gmail.com</a></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+
+    <!-- NAVIGATION TOPBAR -->
+    <nav class="nav-top">
+      <div class="nav-topleft"><a class="logo" href="index.html">Minsu.Kim()</a></div>
+      <div class="nav-topright">
+        <button class="buttonHome" onclick="scrollToSection('.home')">
+          Home
+        </button>
+
+        <button class="buttonStack" onclick="scrollToSection('.stack')">
+          Stack
+        </button>
+        <button class="buttonProjects" onclick="scrollToSection('.projects')">
+          Projects
+        </button>
+        <button class="buttonContact" onclick="scrollToSection('.contact')">
+          Contact
+        </button>
+        <button class="resumeButton">Resume</button>
+      </div>
+    </nav>
+    <main>
+
+      <!-- HOMEPAGE -->
+      <section class="home">
+        <div class="homeContainer page-container">
+          <div class="homeLeft">
+            <img class="homePicture" src="pictures/sketch_photoblack.png" />
+          </div>
+          <div class="homeRight">
+            <p class="hi">Hi, my name is</p>
+            <p class="homeName">Minsu Kim.</p>
+            <p class="homeSoftware">Software Developer.</p>
+
+            <div class="homeDescriptionContainer">
+              <p class="homeDescription">I'm a</p>
+              <p class="homeD1">Computer Science student</p>
+              <p class="homeDescription">
+                with a motivation in building
+                software to help others. Currently <p class="homeD1">seeking </p><p class="homeDescription">an</p>  <p class="homeD1">internship/junior
+                developer position.</p>
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section class="stack">
+        <div class="page-container stackContainer">
+        
+          <div class="stackTop"><p class="stackTitle">Stack</p>
+            <!-- <p class="stackDescription">Languages/Software I have been using are:</p> -->
+          </div>
+        
+        <div class="grid-container">
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/pythonIcon.svg" alt="example" /><p class="iconLabel">Python</p></div>
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/htmlIcon.svg" alt="example" /><p class="iconLabel">HTML</p></div>
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/cssIcon.svg" alt="example" /><p class="iconLabel">CSS</p></div>
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/javascriptIcon.svg" alt="example" /><p class="iconLabel">Javascript</p></div>
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/reactIcon.svg" alt="example" /><p class="iconLabel">React</p></div>
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/photoshopIcon.svg" alt="example" /><p class="iconLabel">Photoshop</p></div>
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/sassIcon.svg" alt="example" /><p class="iconLabel">Sass</p></div>
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/gitIcon.svg" alt="example" /><p class="iconLabel">Git</p></div>
+          <div class="panel"><img class="panelIcon pythonIcon" src="icons/phpIcon.svg" alt="example" /><p class="iconLabel">PHP</p></div>
+        </div>
+      
+      </div>
+    </section>
+    <!-- PROJECTS PAGE -->
+      <section class="projects"><div class="page-container">
+        <p class="projectsTitle">Projects</p>
+      </div></section>
+      <!-- CONTACT PAGE -->
+      <section class="contact"><div class=" contactContainer page-container">
+        <div class="homeName">Lets get in touch</div>
+
+
+
+        <form  class="contactBox" action="https://formsubmit.co/m.kim006064@gmail.com" method="POST">
+          <input type="text" id="nameInput" class="input" name="name" placeholder="Full Name" required>
+          <input type="email" id="emailInput" class="input" name="email" placeholder="Email" required>
+          <!-- <input type="text" class="phoneInput input" placeholder="Phone"> -->
+          <input type="text" id="subjectInput" class="input" name="_subject" placeholder="Subject" required>
+          <textarea id="field" class="input" name="message" placeholder="Type your message here..." required></textarea>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+          <button type="submit" class="buttonSubmit">Submit</button>
+        </form>
+      </div>
+      </section>
+      <footer>
+        <div class="footerContainer">  
+          <a href="https://github.com/tacticalturtle42">
+            <img
+              class="githubIcon"
+              src="icons/github-color.svg"
+              alt="example"        
+            />
+          </a>
+          <a href="https://www.example.com">
+            <img class="slackIcon" src="icons/slack-color.svg" alt="example" />
+          </a>
+          <a href="https://www.example.com">
+            <img
+              class="stack-overflowIcon"
+              src="icons/stackoverflow-color.svg"
+              alt="example"
+            />
+          </a>
+          <a href="https://www.example.com">
+            <img
+              class="linkedinIcon"
+              src="icons/linkedin-color.svg"
+              alt="example"
+            />
+          </a>
+          
+      </div><div><p class="footerEmail">m.kim2827@gmail.com</p></div>
+      </footer>
+    </main>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.stackTitle {
+  font-size: 4em;
+  font-weight: 700;
+  text-align: center;
+}
+/* .stackDescription {
+  color: rgb(167, 167, 167);
+} */
+
+.stackContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.panel {
+  padding: 20px;
+  text-align: center;
+}
+.panelIcon {
+  width: 5rem;
+}
+.stackTop {
+  margin-bottom: 1rem;
+  margin-top: 2em;
+}
+
+.iconLabel {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.stack {
+  margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .panelIcon {
+    width: 3rem;
+  }
+
+  .stackTop {
+    margin-bottom: 2rem;
+  }
+  .grid-container {
+    row-gap: 2rem;
+    column-gap: 0rem;
+  }
+}

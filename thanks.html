@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>form success page</title>
+    <style>
+      #thanksSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 0;
+      }
+      #thanksContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20%;
+      }
+      #homeLink:hover {
+        color: #38f2ff;
+      }
+
+      #thanksText {
+        margin-top: 1rem;
+        text-align: center;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <!--  BACKGROUND ANIMATION -->
+    <div id="particles-js"></div>
+    <script src="javascript/particles.js"></script>
+    <script src="javascript/app.js"></script>
+    <section id="thanksSection">
+      <div id="thanksContainer">
+        <h1>Thank you!</h1>
+        <h2>Your form has been submitted.</h2>
+        <p id="thanksText">
+          You will be redirected to the index page in 5 seconds. If you are not
+          redirected automatically, please click
+          <a id="homeLink" href="index.html">here</a>
+        </p>
+        <script>
+          setTimeout(function () {
+            window.location.replace("index.html");
+          }, 5000);
+        </script>
+      </div>
+    </section>
+  </body>
+</html>
