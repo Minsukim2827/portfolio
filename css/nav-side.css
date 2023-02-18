@@ -1,77 +1,77 @@
 .tooltip {
-  position: absolute;
-  top: 40%;
-  left: 80px;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.3s;
+    position: absolute;
+    top: 40%;
+    left: 80px;
+    transform: translate(-50%, -40%);
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 .iconContainer {
-  position: relative;
+    position: relative;
 }
 
 .iconContainer:hover .tooltip {
-  opacity: 1;
+    opacity: 1;
 }
 
 .nav-left {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  top: 62%;
-  left: 5%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 62%;
+    left: 5%;
 
-  bottom: 0px;
+    bottom: 0px;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .line {
-  border-style: solid;
-  height: 10vh;
-  width: 0;
-  border-width: 1px;
+    border-style: solid;
+    height: 10vh;
+    width: 0;
+    border-width: 1px;
 }
 
 .githubIcon,
 .stack-overflowIcon,
 .slackIcon,
 .linkedinIcon {
-  width: 2rem;
+    width: 2rem;
 }
 
 .nav-right {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  top: 74%;
-  right: 5%;
-  width: 2rem;
-  bottom: 0px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 74%;
+    right: 5%;
+    width: 2rem;
+    bottom: 0px;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .email {
-  transform: rotate(90deg);
-  font-size: 1em;
-  letter-spacing: 3px;
+    transform: rotate(90deg);
+    font-size: 1em;
+    letter-spacing: 3px;
 }
 
 .emailLink {
-  transition: transform 0.3s;
-  transition: color 0.2s;
-  text-decoration: none;
+    transition: transform 0.3s;
+    transition: color 0.2s;
+    text-decoration: none;
 }
 
 .emailLink:hover {
-  transform: rotate(90deg) scale(1.1);
-  color: #38f2ff;
+    transform: rotate(90deg) scale(1.1);
+    color: #38f2ff;
 }
 
 /* @media screen and (max-width: 1200px) {
@@ -80,8 +80,8 @@
   }
 } */
 
-@media only screen and (max-width: 600px) {
-  .nav-side {
-    display: none;
-  }
+@media only screen and (max-width: 700px) {
+    .nav-side {
+        display: none;
+    }
 }

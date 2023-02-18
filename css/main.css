@@ -14,7 +14,7 @@ html,
 body {
     margin: 0px;
     padding: 0px;
-    background: none;
+    background: none !important;
     /* box-sizing: border-box; */
     /* overflow: hidden; */
 }

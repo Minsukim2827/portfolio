@@ -1,4 +1,38 @@
 .projectsTitle {
-  font-size: 80px;
-  font-weight: 700;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.projectsContainer {
+    width: 60%;
+    margin: auto;
+}
+
+.stack-border {
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px !important;
+    border-radius: 5px;
+}
+
+.card {
+    border: none !important;
+    z-index: -1 !important;
+}
+
+.stackButton {
+    height: 35px !important;
+}
+
+@media (width<700px) {
+    .card-text-bottom {
+        flex-direction: column;
+    }
+    .projectsTitle {
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .projectsContainer {
+        width: 90%;
+    }
 }
